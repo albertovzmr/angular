@@ -1,0 +1,28 @@
+.fondo{
+    background-image: url(../../../assets/imagenes/portada.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter:blur(6px);
+}
+
+.cuadrito{
+    background: #ffffff;
+    width: 400px;
+
+}
+
+.centrado{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.texto{
+    font-size: 20px;
+    font-weight: bold;
+}
